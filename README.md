@@ -62,3 +62,68 @@ For N samples, we just divide the squared variances by N-1 instead of N.
 
 
 
+## Probability density functions(Continuous data)
+
+Example - A normal distribution
+
+Gives the probability of a data point falling within some given range of a given value
+
+
+## Probability mass functions(discrete data)
+
+For discrete data.
+
+
+
+## Examples of Data distributions
+
+### Uniform distribution
+
+Flat constast probability of a value occuring within a given range. Unlike normal distribution where the concentration is around the mean, the uniform distribution has equal probality across any given value within the range we define
+
+### Normal/Gaussian
+
+### Exponential PDF / "Power Law"
+
+### Binomial probability mass function(discrete data)
+
+### Poisson probability mass function(discrete data)
+
+A website has an average 500 visits per day. Whats the odds of getting 550 ?
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+values = np.random.uniform(-10.0,10.0,100000)
+plt.hist(values,50)
+plt.show()
+
+
+# Normal/Gaussian distribution
+
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+
+x= np.arange(-3,3,0.001)
+plt.plot(x,norm.pdf(x))
+plt.show()
+
+#Poisson Probability mass function
+
+from scipy.stats import poisson
+import matplotlib.pyplot as plt
+
+mu = 500
+x = np.arange(400,600,0.5)
+plt.plot(x,poisson.pmf(x,mu))
+plt.show()
+
+```
+
+
+
+
+
+
+
