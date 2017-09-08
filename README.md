@@ -43,6 +43,22 @@ Median better represents the typical American in this example
 
 
 ```
-	Mode : The most common value in data set
-	Not relevant to continuous numerical data
+Mode : The most common value in data set
+Not relevant to continuous numerical data
 ```
+
+## Standard deviation, Variance
+
+Measures how "spread-out" the data is.
+
+Variance is simply the average of the squared differences from the mean.
+
+Standard deviation is just the square root of the variance. This is usually a way to identify outliers. Data points that lie more than one standard deviation from the mean can be considered unusual. We can talk about how extreme a data point is by talking about "how many sigmas" away from the mean it is.
+
+
+## Population variance vs Sample variance
+
+For N samples, we just divide the squared variances by N-1 instead of N.
+
+
+
