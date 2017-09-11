@@ -122,7 +122,16 @@ plt.show()
 ```
 
 
+# Percentiles and Moments
 
+Percentile : For a dataset, whats the point at which X% of the values are less than that value
+
+Mements : Ways to measure shape of data distribution(probability distribution function)
+
+The first moment is the mean.
+The second moment is the variance.
+The third moment is "skew" - measure of how lopsided the distribution(Positive , Negative)
+Thr fourth moment is the 'kurtosis' - how thick is the tail and how sharp is the peak. Higher peaks => higher kurtosis
 
 
 
